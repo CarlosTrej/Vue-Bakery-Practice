@@ -1,0 +1,58 @@
+<template>
+    <div class="container5">
+        <h2>Menú</h2>
+        <br>
+        <table id="menuReposteria">
+            <tr>
+                <th>Sabores</th>
+                <th>Adornos</th>
+                <th>Tamaño</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Vainilla</li>
+                        <li>Chocolate Suizo</li>
+                        <li>Chocolate Blanco</li>
+                        <li>Matcha</li>
+                        <li>Imposible</li>
+                        <li>Red Velvet</li>
+                        <li>Tiramisú</li>
+                        <li>Turrón</li>
+                        <li>Pistáche</li>
+                    </ul>
+                </td><!-- Sabores -->
+                <td>
+                    <ul>
+                        <li>Durázno</li>
+                        <li>Fresa</li>
+                        <li>Kiwi</li>
+                        <li>Amarénas</li>
+                        <li>Blue berry</li>
+                        <li>Arándano</li>
+                        <li>Frambuésa</li>
+                        <li>Zarzámora</li>
+                        <li>Nuéz</li>
+                        <li>Alméndra</li>
+                        <li>Oreo</li>
+                    </ul>
+                </td><!-- Adornos -->
+                <td>
+                    <ul>
+                        <li>Personal</li>
+                        <li>Pequeño (para 2 personas)</li>
+                        <li>Mediano (para 6 personas)</li>
+                        <li>Grande (para 12 personas)</li>
+                        <li>Familiar (Para 16 personas)</li>
+                    </ul>
+                </td>
+            </tr><!-- tamaños -->
+        </table><!-- table -->
+        <router-link to="/pedido"><input type="button" id="pedido" value="Personaliza tu pastel"></router-link>
+    </div>
+</template>
+<script>
+export default {
+    name: 'Container-5'
+}
+</script>
